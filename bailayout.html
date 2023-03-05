@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bai Layout</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0 auto;
+    }
+
+    body {
+      background-image: url('')
+    }
+
+    .wrapper {
+      height: 700px;
+      width: 1089px;
+      background-color: rgb(160, 149, 135);
+    }
+
+    header {
+      height: 120px;
+      width: 1089px;
+      background-color: rgb(41, 37, 31);
+      position: relative;
+    }
+
+    nav {
+      height: 45px;
+      width: 1089px;
+      background-color: rgb(34, 90, 16);
+    }
+
+    .content {
+      height: 400px;
+      width: 1089px;
+      background-color: rgb(212, 182, 151);
+    }
+
+    #asl {
+      height: 400px;
+      width: 30%;
+      background-color: rgb(27, 212, 185);
+      float: left;
+    }
+
+    #asr {
+      height: 400px;
+      width: 30%;
+      background-color: rgb(123, 161, 35);
+      float: right;
+    }
+
+    section {
+      height: 400px;
+      width: 40%;
+      background-color: rgb(9, 20, 14);
+      float: left;
+    }
+
+    footer {
+      height: 125px;
+      width: 100%;
+      background-color: rgb(148, 219, 210);
+    }
+
+    .menu li {
+      width: 150px;
+      height: 100%;
+      float: left;
+      line-height: 45px;
+      list-style-type: none;
+      text-indent: 20px;
+    }
+
+    li a {
+      color: rgb(183, 183, 216);
+      text-decoration: none;
+    }
+
+    .menu li:hover {
+      background-color: rgb(47, 47, 160);
+    }
+
+    li:hover>a {
+      color: rgb(175, 175, 133);
+      font-weight: bolder;
+      font-style: italic;
+    }
+
+    .top-menu li {
+      position: absolute;
+      top: 40px;
+      right: 30px;
+      list-style-type: none;
+    }
+
+    .top-menu li:nth-child(1) {
+      top: 30px;
+      left: 300px;
+    }
+
+    .top-menu li:nth-child(2) {
+      top: 30px;
+      left: 420px;
+    }
+
+    .top-menu li:nth-child(3) {
+      top: 30px;
+      left: 540px;
+    }
+
+    .top-menu li:nth-child(4) {
+      top: 30px;
+      left: 660px;
+    }
+
+    .top-menu li:nth-child(5) {
+      top: 30px;
+      left: 780px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <ul class="top-menu">
+          <li><a href="abcd"></a>HOME</li>
+          <li><a href=""></a>SERVICES</li>
+          <li><a href=""></a>CONTACT</li>
+          <li><a href=""></a>ABOUT US</li>
+          <li><a href=""></a>HELP</li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <aside id="asl">
+
+      </aside>
+
+      <section>
+
+      </section>
+
+      <aside id="asr">
+
+      </aside>
+    </div>
+
+    <footer>
+
+    </footer>
+  </div>
+</body>
+
+</html>

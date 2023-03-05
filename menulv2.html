@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu cap 2</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0 auto;
+    }
+
+    .wrapper {
+      min-height: 300px;
+      width: 1089px;
+      background-color: rgb(226, 209, 186);
+    }
+
+    header {
+      height: 150px;
+      width: 100%;
+      background-color: rgb(241, 232, 218);
+      position: relative;
+    }
+
+    .top-menu li {
+      position: absolute;
+      height: 45px;
+      width: 100px;
+      background-color: rgb(140, 141, 211);
+      list-style-type: none;
+      border: 3px dotted rgb(128, 204, 128);
+      border-radius: 10px;
+      line-height: 45px;
+      text-indent: 20px;
+    }
+
+    li a {
+      text-decoration: none;
+    }
+
+    .top-menu li:first-child {
+      top: 30px;
+      left: 425px;
+    }
+
+    .top-menu li:nth-child(2) {
+      top: 30px;
+      left: 540px;
+    }
+
+    .top-menu li:nth-child(3) {
+      top: 30px;
+      left: 655px;
+    }
+
+    .top-menu li:nth-child(4) {
+      top: 30px;
+      left: 770px;
+    }
+
+    .top-menu li:last-child {
+      top: 30px;
+      left: 885px;
+    }
+
+    .top-menu li:hover {
+      background-color: rgb(108, 172, 56);
+    }
+
+    li:hover>a {
+      color: rgb(9, 10, 10);
+      font-style: italic;
+      font-weight: bolder;
+    }
+
+    .top-menu li .sub-menu li:nth-child(1) {
+      display: block;
+      top: 50px;
+      left: 0px;
+    }
+
+    .top-menu li .sub-menu li:nth-child(2) {
+      display: block;
+      top: 105px;
+      left: 0px;
+    }
+
+    .top-menu li .sub-menu li:nth-child(3) {
+      display: block;
+      top: 160px;
+      left: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <ul class="top-menu">
+        <li><a href="">ITEM 1</a></li>
+        <li><a href="">ITEM 2</a>
+          <ul class="sub-menu">
+            <li><a href="">ITEM 2.1</a></li>
+            <li><a href="">ITEM 2.2</a></li>
+            <li><a href="">ITEM 2.3</a></li>
+          </ul>
+        </li>
+        <li><a href="">ITEM 3</a>
+        <ul class="sub-menu">
+          <li><a href="">ITEM 3.1</a></li>
+          <li><a href="">ITEM 3.2</a></li>
+          <li><a href="">ITEM 3.3</a></li>
+        </ul>
+      </li>
+        
+        <li><a href="">ITEM 4</a></li>
+        <li><a href="">ITEM 5</a></li>
+      </ul>
+    </header>
+  </div>
+</body>
+
+</html>
